@@ -9,6 +9,19 @@ public class DiscoVinil {
 	private boolean venda;
 	private String estadodeconservacao;
 	
+	public DiscoVinil() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public DiscoVinil(String titulo, String artista, boolean locacao, boolean venda, String estadodeconservacao) {
+		// TODO Auto-generated constructor stub
+		this.setTitulo(titulo);
+		this.setArtista(artista);
+		this.setLocacao(locacao);
+		this.setVenda(venda);
+		this.setEstadodeconservacao(estadodeconservacao);
+	} 
+	
 	public int getIddiscovinil() {
 		return iddiscovinil;
 	}
